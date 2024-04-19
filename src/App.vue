@@ -1,5 +1,7 @@
 <template>
-  <ExportProducts />
+  <div class="custom-container">
+    <ExportProducts />
+  </div>
 </template>
 
 <script>
@@ -11,3 +13,10 @@ export default {
   }
 }
 </script>
+<style>
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
