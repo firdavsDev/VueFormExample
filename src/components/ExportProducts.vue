@@ -31,9 +31,15 @@
       ]" :rules="[
         'required',
       ]" />
+
       <TextElement name="Navi" label="Нави" :rules="[
         'required',
       ]" />
+
+      <TextElement name="TNV kod" label="TNV kod" :rules="[
+        'required',
+      ]" />
+
       <TextElement name="Qadog'i" label="Қадоғи" :rules="[
         'required',
       ]" />
@@ -121,7 +127,6 @@
 </template>
 
 <script>
-import axios from 'axios';
 export default {
   name: 'ExportProducts',
   data() {

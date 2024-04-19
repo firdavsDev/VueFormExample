@@ -6,10 +6,14 @@
 
 <script>
 import ExportProducts from './components/ExportProducts.vue';
+import { inject } from '@vercel/analytics';
 export default {
   name: 'App',
   components: {
     ExportProducts
+  },
+  setup() {
+    inject();
   }
 }
 </script>
